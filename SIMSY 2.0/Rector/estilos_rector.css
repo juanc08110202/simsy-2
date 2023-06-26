@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Estilos del ecabezado de la pagina */
+
+.encabezado {
+    background: #dbe6ff;
+    height: 70px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+}
+
+.nombrecol{
+    position: absolute;
+    right: 90%;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 2px 2px #01003b;    
+}
+
+.img{
+    height: 50px;
+    width: 100px;
+    box-shadow: 1px 2px 2px #01003b;   
+    position: absolute;
+    left: 92%;
+}
+
+.boton  {
+    position: absolute;
+    left: 85.5%;
+    cursor: pointer;
+    background-color: #a2beff;
+    border-radius: 60px;
+}
+
+
+/* Fin estilos del ecabezado de la pagina */
+
+/* Estilos lista desplegable cerrar sesion de la pagina */
+
+.horizontal {
+    list-style: none;
+    display: flex;
+    flex-direction: row ;
+}
+
+.horizontal > li > a {
+    display: block;
+    text-decoration: none;
+}
+
+
+.horizontal > li:hover {
+    background-color: #7ca3ff;
+    cursor: pointer;
+}
+
+.vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 120px;
+    background-color: rgba(180, 213, 246, 0.5);
+    right: 1.3%;
+    top: 1%;   
+}
+
+.vertical li a {
+    display: block;
+    color: rgb(0, 20, 81);
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.horizontal li:hover .vertical{
+    display: block;
+    cursor: pointer;
+    transform: scale(1.1) ;
+}
+
+.vertical li:hover {
+    background-color: #a2beff;
+    cursor: pointer;
+    transform: scale(1.1) ;
+}
+
+
+
+
+
+/* Fin estilos lista desplegable cerrar sesion de la pagina */
+
+/* Estilos del titulo de la pagina */
+
+.Contenerdor{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex: 13;
+    padding-top: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1.5px 2.2px 2.2px #01003b;
+    font-size: 25px;
+}
+
+.regresar {
+    position: absolute;
+    left: 92%;  
+    padding-top: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0px 0.3px  0.3px #01003b;
+    
+}
+
+.regresar :hover{
+    background: #b4c2ffcc;
+    transition: .8s;
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Fin estilos del titulo de la pagina */
+
+/* Estilos bloque datos del perfil de usuario de la pagina */
+
+.Usuario {
+
+    display: inline-block;
+    margin-left: 0;
+    margin: 1px;
+    margin-left: 20%;
+    border: 1px transparent #01003b;
+    width: 61%;
+    box-shadow: 2px 7px 7px #7ca3ff;
+    padding-bottom: 1px;
+    padding-top: 12px;
+    border-radius: 20px;
+    background-color: #e7edfc;
+}
+
+.imagensecre{
+    display: flex;
+    border-radius: 52%;
+}
+
+.Usuario1 {
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0.5px 1px 1px #01003b;
+    font-size: 15px;
+}
+
+.Usuario2 {
+    position: absolute;
+    left: 43%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+
+/* Fin estilos bloque datos del perfil de usuario de la pagina */
+
+
+.submit {  
+    margin: 1px;
+    margin-left: 18%;
+    size: #000000;
+}
+
+.submit2 {  
+    margin: 1px;
+    margin-left: 33%;
+    size: #000000;
+}
+
+.Boton {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;       
+}
+  
+button {
+    background-color: #e7f3ff;
+    border: transparent;
+    color: #000000;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+    font-size: 25px;  
+    cursor: pointer;  
+    position: relative;
+    border-radius: 15px;
+    font-style: #000000;
+    
+}
+
+button :hover {
+    
+    background: #b4c2ffcc;
+    transition: 1.3s;
+    padding: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+ 
+
+
+
